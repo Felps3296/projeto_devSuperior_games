@@ -13,6 +13,7 @@ import lombok.*;
 @Embeddable
 public class BelongingPK {
 
+    //Chaves compostas
     @ManyToOne
     @JoinColumn(name = "game_id")
     private Game game;

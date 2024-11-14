@@ -14,6 +14,7 @@ import lombok.*;
 @Table(name = "tb_belonging")
 public class Belonging {
 
+    //Chaves compostas
     @EmbeddedId
     private BelongingPK id = new BelongingPK();
     private Integer position;
