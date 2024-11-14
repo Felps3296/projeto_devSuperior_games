@@ -2,8 +2,6 @@ package com.devsuperior.listgames.controller;
 
 import com.devsuperior.listgames.dto.GameDTO;
 import com.devsuperior.listgames.dto.GameMinDTO;
-import com.devsuperior.listgames.entities.Game;
-import com.devsuperior.listgames.repository.GameRepository;
 import com.devsuperior.listgames.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
